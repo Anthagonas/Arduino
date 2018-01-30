@@ -1190,6 +1190,21 @@
 			display: block;
 			width: 100%;
 		}
+	
+
+	.transparent-feature-image {
+		display: block;
+		background: #ffffff00;
+		padding: 10px;
+		box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0);
+		margin: 0 0 1.5em 0;
+		outline: 0;
+	}
+
+		.transparent-feature-image img {
+			display: block;
+			width: 100%;
+		}
 
 	.button-big {
 		background-image: -moz-linear-gradient(top, #ed391b, #ce1a00);
