@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200");
-
+@font-face {
+	font-family: 'icomoon';
+	src: url("icomoon/icomoon.eot?srf3rx");
+	src: url("icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("icomoon/icomoon.ttf?srf3rx") format("truetype"), url("icomoon/icomoon.woff?srf3rx") format("woff"), url("icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+  }
 /*
 	Halcyonic by HTML5 UP
 	html5up.net | @ajlkn
@@ -1090,6 +1096,9 @@
 
 	a {
 		text-decoration: underline;
+	}
+	a.icon{
+		text-decoration: none;
 	}
 
 		a:hover {
