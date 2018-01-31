@@ -1204,15 +1204,15 @@
 	.transparent-feature-image {
 		display: block;
 		background: #ffffff00;
-		padding: 10px;
+		padding: 0px;
 		box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0);
-		margin: 0 0 1.5em 0;
+		margin: 0 0 0 0;
 		outline: 0;
 	}
 
 		.transparent-feature-image img {
 			display: block;
-			width: 100%;
+			width: 70%;
 		}
 
 	.button-big {
