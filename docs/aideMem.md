@@ -11,15 +11,20 @@ La valeur est optionelle et peut être définie plus tard :
 String test;
 test = "TATA";
 ```
+Il est intéressant de noter qu'_Arduino_ a sa propre [implémentation](https://www.arduino.cc/reference/en/language/variables/data-types/stringobject/) des `String`, ce qui peut poser problème en utilisant les `string` implémentés dans _C++_.
 ## Créer une fonction
 La création de fonctions en _Arduino_ est pareil qu'en C/C++. Il faut préciser le Type que retourne la fonction ( `int`, `String`, `void`... ). le type `void` indique que la fonction ne retourne rien :
 ```Arduino
-void foo(int parametre1, String parametre2){
+void foo(int parametre){
     //l'interieur de votre fonction
-    parametre1 = 14;
+    parametre = 14;
 }
 ```
-l'execution se fait en executant `foo(0,"test")` par exemple.
+La fonction présentée ci-dessus est appelée lorsque l'on exécute :
+```Arduino
+int test = 1;
+foo(test); // test = 14
+```
 ## Aspect général d'un code
 ```Arduino
 //Declaration de variables globales
@@ -35,10 +40,9 @@ void loop() {
     variable_globale += 1;
     variable_globale -= 1;
 }
-//non, ce n'est pas très utile
 ```
 ## Les spécificités Arduino
-Le langage _Arduino_ permet d'utiliser plus facilement un circuit imprimé gràce a ses fonctions spécifiques :
+Le langage _Arduino_ permet d'utiliser plus facilement un circuit imprimé grâce a ses fonctions spécifiques :
 
 Déclaration de l'utilisation d'une broche :
 ```Arduino
@@ -51,7 +55,7 @@ int broche = 13;
 digitalWrite(broche, HIGH); // fournir un courant de 5V dans la broche 13
 digitalWrite(broche, LOW); // le courant passe a 0V dans la broche 13
 ```
-Marquer un temps d'arret dans l'execution du code :
+Marquer un temps d'arrêt dans l'exécution du code :
 ```Arduino
 delay(1000); // stoppe l'execution du code pendant 1 seconde
 ```
