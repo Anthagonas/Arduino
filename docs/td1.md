@@ -23,10 +23,10 @@ Pour faire clignoter la LED :
 1. Marquer un temps d'arrêt dans l'execution du programme.
 1. Demander l'extinction de la LED.
 
-_**Note** : La fonction `loop()` se comporte comme une boucle, penser à marquer un temps d'arret supplémentaire entre l'extinction et l'allumage de la LED._
+_**Note** : La fonction `loop()` se comporte comme une boucle, penser à marquer un temps d'arrêt supplémentaire entre l'extinction et l'allumage de la LED._
 
 ### **Pour aller plus loin**
-Si vous vous sentez motivé, tentez de créer un signal S.O.S avec votre LED !
+Si vous vous sentez motivé, tentez de créer un signal S.O.S. avec votre LED !
 
 Pour cela :
 1. Créer une fonction `blinkS()` qui fait clignoter votre LED 3 fois lentement _(correspondant à la lettre S en morse)_.
@@ -48,6 +48,6 @@ Modifier le code précédent afin de :
 1. Modifier la fonction `loop()` afin de faire clignoter les LEDs une à une.
 
 _**Note** : Si vous avez implémenté les fonctions `blinkO()` et `blinkS()`, vous pouvez tenter de faire correspondre à chaque LED une lettre du message S.O.S.
-(On aura alors la première LED clignottant "S", puis la deuxième "O", puis la troisième "S")_
+(On aura alors la première LED clignotant "S", puis la deuxième "O", puis la troisième "S")_
 
 Vous trouvez ça nul de faire clignoter une LED? [**VOUS N'ETES PAS PRET!**](https://www.youtube.com/watch?v=6mXM-oGggrM)

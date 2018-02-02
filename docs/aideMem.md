@@ -1,5 +1,5 @@
 # Aide mémoire pour Arduino
-La programmation _Arduino_ est proche de la programmation _C/C++_, tout simplement parce que le langage _Arduino_ est [basé](https://www.arduino.cc/en/Main/FAQ#toc13) sur du _C/C++_. Les quelques [variations](https://arduino.stackexchange.com/questions/816/c-vs-the-arduino-language) résident majoritairement dans le fait que _Arduino_ ajoute ses propres [librairies](https://www.arduino.cc/reference/en/) pour le controle de son circuit imprimé. 
+La programmation _Arduino_ est proche de la programmation _C/C++_, tout simplement parce que le langage _Arduino_ est [basé](https://www.arduino.cc/en/Main/FAQ#toc13) sur du _C/C++_. Les quelques [variations](https://arduino.stackexchange.com/questions/816/c-vs-the-arduino-language) résident majoritairement dans le fait que _Arduino_ ajoute ses propres [librairies](https://www.arduino.cc/reference/en/) pour le contrôle de son circuit imprimé. 
 ## Déclarer une variable
 Avant d'utiliser une variable, il faut la déclarer :
 ```Arduino
@@ -11,7 +11,7 @@ La valeur est optionelle et peut être définie plus tard :
 String test;
 test = "TATA";
 ```
-Il est intéressant de noter qu'_Arduino_ a sa propre [implémentation](https://www.arduino.cc/reference/en/language/variables/data-types/stringobject/) des `String`, ce qui peut poser problème en utilisant les `string` implémentés dans _C++_.
+Il est intéressant de noter qu'_Arduino_ a sa propre [implémentation](https://www.arduino.cc/reference/en/language/variables/data-types/stringobject/) des `String`, ce qui peut poser problème en utilisant les `string` implémentées dans _C++_.
 ## Créer une fonction
 La création de fonctions en _Arduino_ est pareil qu'en C/C++. Il faut préciser le Type que retourne la fonction ( `int`, `String`, `void`... ). le type `void` indique que la fonction ne retourne rien :
 ```Arduino
