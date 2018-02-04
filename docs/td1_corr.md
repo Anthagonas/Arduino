@@ -30,7 +30,7 @@ void loop(){
 1. Provoquer l'allumage de la LED.
 
 ```Arduino
-int LED1=13
+int LED1=13;
 
 void setup() {
     pinMode(LED1,OUTPUT);
@@ -42,7 +42,7 @@ void loop() {
 ```
 2. Marquer un temps d'arrêt dans l'execution du programme.
 ```Arduino
-int LED1=13
+int LED1=13;
 
 void setup() {
     pinMode(LED1,OUTPUT);
@@ -55,7 +55,7 @@ void loop() {
 ```
 3. Demander l'extinction de la LED.
 ```Arduino
-int LED1=13
+int LED1=13;
 
 void setup() {
     pinMode(LED1,OUTPUT);
@@ -70,7 +70,7 @@ void loop() {
 ```
 **Pour aller plus loin**
 ```Arduino
-int LED1=13
+int LED1=13;
 
 void blinkS(int LED){
     for(int i=0;i<3;i++){
@@ -105,9 +105,9 @@ void loop() {
 ## **Partie 2 : Allumage de plusieurs LEDs**
 1. Déclarer les nouvelles LEDs.
 ```Arduino
-int LED1=13
-int LED2=12
-int LED3=11
+int LED1=13;
+int LED2=12;
+int LED3=11;
 
 void setup() {
 }
@@ -119,9 +119,9 @@ void loop() {
 2. Modifier la fonction setup() afin de l'adapter à ce changement.
 
 ```Arduino
-int LED1=13
-int LED2=12
-int LED3=11
+int LED1=13;
+int LED2=12;
+int LED3=11;
 
 
 void setup() {
@@ -138,9 +138,9 @@ void loop() {
 
 
 ```Arduino
-int LED1=13
-int LED2=12
-int LED3=11
+int LED1=13;
+int LED2=12;
+int LED3=11;
 
 
 void setup() {
@@ -168,9 +168,9 @@ void loop() {
 Pour aller plus loin
 
 ```Arduino
-int LED1=13
-int LED2=12
-int LED3=11
+int LED1=13;
+int LED2=12;
+int LED3=11;
 
 void blinkS(int LED){
     for(int i=0;i<3;i++){
@@ -195,11 +195,11 @@ void setup() {
 }
 
 void loop() {
-    blinkS(LED1)
+    blinkS(LED1);
     delay(1000);
-    blinkO(LED2)
+    blinkO(LED2);
     delay(1000);
-    blinkS(LED3)
+    blinkS(LED3);
     delay(1000);
 }
 ```
