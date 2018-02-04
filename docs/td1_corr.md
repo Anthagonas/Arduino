@@ -1,4 +1,4 @@
-# TD1 : Initiation à Arduino:
+# TD1 : Correction
 ## **Partie 1 : Allumage d'une LED** 
 
 **Mise en place de l'initialisation**
