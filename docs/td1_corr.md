@@ -50,7 +50,7 @@ void setup() {
 
 void loop() {
     digitalWrite(LED1,HIGH);
-    delay(1000);
+    delay(500);
 }
 ```
 3. Demander l'extinction de la LED.
@@ -63,9 +63,9 @@ void setup() {
 
 void loop() {
     digitalWrite(LED1,HIGH);
-    delay(1000);
+    delay(500);
     digitalWrite(LED1,LOW);
-    delay(1000);
+    delay(500);
 }
 ```
 **Pour aller plus loin**
@@ -75,17 +75,17 @@ int LED1=13;
 void blinkS(int LED){
     for(int i=0;i<3;i++){
         digitalWrite(LED,HIGH);
-        delay(500);
+        delay(250);
         digitalWrite(LED,LOW);
-        delay(500);
+        delay(250);
     }
 }
 void blinkO(int LED){
     for(int i=0;i<3;i++){
         digitalWrite(LED,HIGH);
-        delay(2000);
+        delay(500);
         digitalWrite(LED,LOW);
-        delay(2000);
+        delay(500);
     }
 }
 
@@ -95,11 +95,11 @@ void setup() {
 
 void loop() {
     blinkS(LED1);
-    delay(1000);
+    delay(500);
     blinkO(LED1);
-    delay(1000);
+    delay(500);
     blinkS(LED1);
-    delay(1000);
+    delay(500);
 }
 ```
 ## **Partie 2 : Allumage de plusieurs LEDs**
@@ -152,15 +152,15 @@ void setup() {
 void loop() {
     // LED 1
     digitalWrite(LED1,HIGH);
-    delay(1000);
+    delay(500);
     digitalWrite(LED1,LOW);
     // LED 2
     digitalWrite(LED2,HIGH);
-    delay(1000);
+    delay(500);
     digitalWrite(LED2,LOW);
     // LED 3
     digitalWrite(LED3,HIGH);
-    delay(1000);
+    delay(500);
     digitalWrite(LED3,LOW);
 }
 ```
@@ -175,15 +175,17 @@ int LED3=11;
 void blinkS(int LED){
     for(int i=0;i<3;i++){
         digitalWrite(LED,HIGH);
-        delay(500);
+        delay(250);
         digitalWrite(LED,LOW);
+        delay(250);
     }
 }
 void blinkO(int LED){
     for(int i=0;i<3;i++){
         digitalWrite(LED,HIGH);
-        delay(2000);
+        delay(500);
         digitalWrite(LED,LOW);
+        delay(500);
     }
 }
 
@@ -196,10 +198,10 @@ void setup() {
 
 void loop() {
     blinkS(LED1);
-    delay(1000);
+    delay(500);
     blinkO(LED2);
-    delay(1000);
+    delay(500);
     blinkS(LED3);
-    delay(1000);
+    delay(500);
 }
 ```
