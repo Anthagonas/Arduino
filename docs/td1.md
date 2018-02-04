@@ -1,7 +1,7 @@
 # TD1 : Initiation à Arduino
 Pour compléter sans soucis ce TD, nous vous conseillons de vous munir des [diapos](https://rawgit.com/Anthagonas/arduino/master/docs/diapos.pdf) et de [l'aide mémoire](https://rawgit.com/Anthagonas/arduino/master/docs/aideMem.pdf) pour coder du C/C++ dans Arduino.
 
-Créez un fichier `led.c` dans lequel vous écrirez le code.
+Créez un fichier `led.ino` dans lequel vous écrirez le code.
 ## **Partie 1 : Allumage d'une LED**
 Le but ici sera de faire clignoter une LED à intervalles précis. Cette LED est positionnée sur le broche _13_ de la carte Arduino.
 
@@ -29,8 +29,8 @@ _**Note** : La fonction `loop()` se comporte comme une boucle, penser à marquer
 Si vous vous sentez motivé, tentez de créer un signal S.O.S. avec votre LED !
 
 Pour cela :
-1. Créer une fonction `blinkS()` qui fait clignoter votre LED 3 fois lentement _(correspondant à la lettre S en morse)_.
-1. Créer une fonction `blinkO()` faisant clignoter 3 fois votre LED rapidement _(correspondant à la lettre O en morse)_.
+1. Créer une fonction `blinkS()` qui fait clignoter votre LED 3 fois rapidement _(correspondant à la lettre S en morse)_.
+1. Créer une fonction `blinkO()` faisant clignoter 3 fois votre LED lentement _(correspondant à la lettre O en morse)_.
 1. Utiliser les fonction `blinkS()` et `blinkO()` dans la fonction `loop()` afin de créer un S.O.S.
 
 _**Note** : Il est nécessaire de marquer un temps d'arrêt entre chaque lettre en morse._
